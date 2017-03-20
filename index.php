@@ -35,7 +35,7 @@ if(!empty($sessData['status']['msg'])){
             <p><b>Phone: </b><?php echo $userData['phone']; ?></p>
 		</div>
         <?php }else{ ?>
-        
+
 		<h2>Login to Your Account</h2>
         <?php echo !empty($statusMsg)?'<p class="'.$statusMsgType.'">'.$statusMsg.'</p>':''; ?>
 		<div class="regisFrm">
@@ -114,7 +114,7 @@ if ($gClient->getAccessToken()) {
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Login with Google using PHP by CodexWorld</title>
+
 <style type="text/css">
 h1{font-family:Arial, Helvetica, sans-serif;color:#999999;}
 </style>
